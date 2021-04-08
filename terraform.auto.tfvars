@@ -6,11 +6,11 @@
 
 vsphere_server = "10.10.20.131"
 datacenter = "Sandbox"
-resource_pool = "Test_Resource_Pool"
+resource_pool = ""
 datastore_name = "SpringpathDS-10.10.20.121"
 network_name = "VM Network"
 template_name = "Terraform-CentOS7Base"
-vm_folder = "demolab"
+vm_folder = ""
 vm_prefix = "V01"
 vm_domain = "lab.devnetsandbox.local"
 vm_cpu = 1
