@@ -6,7 +6,7 @@
 
 vsphere_server = "10.10.20.131"
 datacenter = "Sandbox"
-resource_pool = ""
+resource_pool = "Test_Resource_pool"
 datastore_name = "SpringpathDS-10.10.20.121"
 network_name = "VM Network"
 template_name = "Terraform-CentOS7Base"
