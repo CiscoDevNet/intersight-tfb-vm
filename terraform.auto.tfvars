@@ -4,10 +4,10 @@
 #
 
 
-vsphere_server = “10.200.0.210” 
+vsphere_server = "10.200.0.210" 
 datacenter = "DEVNET-DMZ"
 resource_pool = 
-datastore_name = "SpringpathDS-WZP222514T3”
+datastore_name = "SpringpathDS-WZP222514T3"
 network_name = "VM Network"
 template_name = "CentOs8template"
 vm_folder = ""
