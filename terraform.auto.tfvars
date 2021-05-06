@@ -4,16 +4,15 @@
 #
 
 
-vsphere_server = "10.200.0.210" 
-datacenter = "DEVNET-DMZ"
-resource_pool = "Test_Resource_Pool" 
-datastore_name = "SpringpathDS-WZP222514T3"
-network_name = "Management"
-template_name = "CentOs8template"
-vm_folder = "hx-demo"
+vsphere_server = "10.10.20.131"
+datacenter = "Sandbox"
+resource_pool = "Test_Resource_Pool"
+datastore_name = "SpringpathDS-10.10.20.121"
+network_name = "VM Network"
+template_name = "Terraform-CentOS7Base"
+vm_folder = "demolab"
 vm_prefix = "V01"
-vm_domain = "" 
+vm_domain = "lab.devnetsandbox.local"
 vm_cpu = 1
 vm_memory = 4096
-# vm_count = 1
 
